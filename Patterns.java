@@ -38,6 +38,18 @@ for(int j=1;j<=5;j++){
 System.out.println();
 }
 
+//Q3
+System.out.println("Q3");
+
+// *
+// **
+// ***
+// **** 
+ for(int i = 1;i<=4;i++){
+
+  
+ }
+
 
 
 
