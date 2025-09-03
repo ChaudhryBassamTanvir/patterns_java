@@ -95,6 +95,43 @@ for (int j= 1; j <=i; j++) {
 System.out.println();
 
 }
+//Q6
+System.out.println("Q6");
+// 1
+// 12
+// 123
+// 1234
+// 12345
+
+
+for (int i = 1; i <= m; i++) {
+for (int j = 1; j <= i; j++) {
+  System.out.print(j+ " ");
+  
+}
+System.out.println();
+
+
+  
+}
+//Q7
+System.out.println("Q7");
+// 12345
+// 1234
+// 123
+// 12
+// 1
+
+for (int i = 1; i <= m; i++) {
+for (int j =i; j <= m; j++) {
+  System.out.print(j+ " ");
+  
+}
+System.out.println();
+  
+}
+
+
 
 
 
