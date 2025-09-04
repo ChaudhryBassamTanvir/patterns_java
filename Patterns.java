@@ -123,8 +123,27 @@ System.out.println("Q7");
 // 1
 
 for (int i = 1; i <= m; i++) {
-for (int j =i; j <= m; j++) {
+for (int j =1; j <= m-i+1; j++) {
   System.out.print(j+ " ");
+  
+}
+System.out.println();
+  
+}
+
+System.out.println("Floyd's Traiangle");
+//1
+//2 3
+//4 5 6 
+//7 8 9 10 
+//11 12 13 14 15
+
+int number=1;
+
+for (int i = 1; i <= m; i++) {
+for (int j =1; j <= i; j++) {
+  System.out.print(number+ " ");
+  number++;
   
 }
 System.out.println();
@@ -135,7 +154,9 @@ System.out.println();
 
 
 
-    }
+
+
+  }
 
     
 }
